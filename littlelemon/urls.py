@@ -40,6 +40,7 @@ urlpatterns = [
     path("api-token-auth/", obtain_auth_token),
     path("booking/", include(router.urls)),
     path("", TemplateView.as_view(template_name="index.html")),
+    path("contact/", include("contact.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

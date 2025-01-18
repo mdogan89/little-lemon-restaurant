@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "djoser",
     "restaurant",
     "corsheaders",
+    "contact",
 ]
 
 MIDDLEWARE = [
