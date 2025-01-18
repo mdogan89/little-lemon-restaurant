@@ -22,7 +22,7 @@ export default function ReservationsPage() {
     const [confirmedBookings, setConfirmedBookings] = useState('')
 
     const SubmitForm = (formData) => {
-        axios.post('https://littlelemonrestaurant-mdogan89s-projects.vercel.app/booking/table/', formData).then(response => {
+        axios.post('https://littlelemonrestaurant-p9tbu40u4-mdogan89s-projects.vercel.app/booking/table/', formData).then(response => {
             console.log(response.status);
             const form = response.data;
             setConfirmedBookings(form);
@@ -36,7 +36,7 @@ export default function ReservationsPage() {
 
     useEffect(() => {
         // invalid url will trigger an 404 error
-        axios.get(`https://littlelemonrestaurant-mdogan89s-projects.vercel.app/restaurant/menu/`).then((response) => {
+        axios.get(`https://littlelemonrestaurant-p9tbu40u4-mdogan89s-projects.vercel.app/restaurant/menu/`).then((response) => {
             console.log(response);
         }).catch(error => {
             console.log(error);
