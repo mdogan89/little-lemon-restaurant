@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a6ff2921.css",
-    "main.js": "./static/js/main.5aa89646.js",
+    "main.js": "./static/js/main.c99ca9ba.js",
     "static/js/787.c0b67421.chunk.js": "./static/js/787.c0b67421.chunk.js",
     "static/media/Mario_and_Adrian.jpg": "./static/media/Mario_and_Adrian.bea6990829f44b3e90e2.jpg",
     "static/media/restaurant_chef_B.jpg": "./static/media/restaurant_chef_B.0209efa6b0daebcd2068.jpg",
@@ -15,11 +15,11 @@
     "static/media/hamburger.svg": "./static/media/hamburger.085bb085bb254661d460c5911a08f333.svg",
     "static/media/star-solid.svg": "./static/media/star-solid.dd8a7748f3ee94f9cbc652c3241ef424.svg",
     "main.a6ff2921.css.map": "./static/css/main.a6ff2921.css.map",
-    "main.5aa89646.js.map": "./static/js/main.5aa89646.js.map",
+    "main.c99ca9ba.js.map": "./static/js/main.c99ca9ba.js.map",
     "787.c0b67421.chunk.js.map": "./static/js/787.c0b67421.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ff2921.css",
-    "static/js/main.5aa89646.js"
+    "static/js/main.c99ca9ba.js"
   ]
 }
